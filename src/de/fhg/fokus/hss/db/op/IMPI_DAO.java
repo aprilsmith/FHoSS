@@ -113,6 +113,8 @@ public class IMPI_DAO {
 			e.printStackTrace();
 		}
 		
+		logger.info("IMPI identity: " +identity);
+		logger.info("result : "+result);
 		return result;
 	}
 	
