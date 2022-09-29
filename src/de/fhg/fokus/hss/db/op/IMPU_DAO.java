@@ -305,6 +305,9 @@ public class IMPU_DAO {
 			logger.error("Query did not returned an unique result! You have a duplicate in the database!");
 			e.printStackTrace();
 		}
+		
+		logger.info("IMPU identity: " +identity);
+		logger.info("IMPU result : "+result);
 
 		return result;
 	}
