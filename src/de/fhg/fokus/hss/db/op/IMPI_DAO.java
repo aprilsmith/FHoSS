@@ -114,7 +114,7 @@ public class IMPI_DAO {
 		}
 		
 		logger.info("IMPI identity: " +identity);
-		logger.info("result : "+result);
+		logger.info("IMPI result : "+result);
 		return result;
 	}
 	
